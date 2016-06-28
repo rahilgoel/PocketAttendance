@@ -46,6 +46,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+
         btnLinkToRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,11 +70,12 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+
     private void checkLogin(final String email, final String password) {
         String tag_string_req = "req_login";
         pDialog.setMessage("Logging in...");
         pDialog.show();
-        StringRequest strReq = new StringRequest(Request.Method.POST, "http://192.168.137.1/pocketAttendance/login.php", new Response.Listener<String>() {
+        StringRequest strReq = new StringRequest(Request.Method.POST, AppController.IP+"/login.php", new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {

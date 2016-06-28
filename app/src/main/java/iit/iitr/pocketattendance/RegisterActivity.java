@@ -83,8 +83,10 @@ public class RegisterActivity extends AppCompatActivity {
     }
         private void registerUser(final String name,final String email,final String password){
 String tag_string_req="req_register";
+            pDialog.setMessage("Registering you...please wait");
             pDialog.show();
-            StringRequest strReq=new StringRequest(Request.Method.POST, "http://192.168.137.1/pocketAttendance/register.php", new Response.Listener<String>() {
+            pDialog.setCancelable(true);
+            StringRequest strReq=new StringRequest(Request.Method.POST, AppController.IP+"/register.php", new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     try {

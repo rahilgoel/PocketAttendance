@@ -12,6 +12,7 @@ import com.android.volley.toolbox.Volley;
  */
 public class AppController extends Application {
     static final String BLUECATS_APP_TOKEN="7bee2cbe-b212-4a14-a589-8fb7f4a084e9";
+    static final String IP="http://10.178.111.140/pocketAttendance";
     public static final String Tag=AppController.class.getSimpleName();
     private RequestQueue requestQueue;
     private static AppController mInstance;
