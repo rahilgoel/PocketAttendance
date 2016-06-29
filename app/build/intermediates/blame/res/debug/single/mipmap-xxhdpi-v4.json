@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Mac/androidProjects/PocketAttendance1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Mac/Desktop/PocketAttendanceAndroid/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Mac/Desktop/PocketAttendanceAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Mac/Desktop/PocketAttendance/PocketAttendanceAndroid/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Mac/Desktop/PocketAttendance/PocketAttendanceAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

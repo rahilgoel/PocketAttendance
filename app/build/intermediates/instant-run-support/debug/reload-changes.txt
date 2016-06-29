@@ -1,0 +1,5 @@
+CHANGED,/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/iit/iitr/pocketattendance/RegisterActivity$override.class
+CHANGED,/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/iit/iitr/pocketattendance/RegisterActivity$3$override.class
+CHANGED,/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/iit/iitr/pocketattendance/RegisterActivity$4$override.class
+CHANGED,/Users/Mac/androidProjects/PocketAttendance1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/iit/iitr/pocketattendance/RegisterActivity$5$override.class
